@@ -8,6 +8,13 @@ AST explorer in TUI that every CSIE student dream of.
 
 </div>
 
+Astuin is a ast-explorer-like tui tool.
+
+The primary use of this is for CSIE student that learning/building compiler.
+
+If you want someting to view the custom ast instead of `print` everywhere,
+or too lazy to build a proper ast viewer, this is the one for you.
+
 ## Feature
 
 - Mouse support
@@ -27,6 +34,7 @@ The ast format look like this:
 ```
 
 The span is half-open (bounded inclusively below and exclusively above).
+
 `@span` is a special key it specify the span of it's parent.
 
 A real sexpr ast look like this:
