@@ -4,6 +4,8 @@
 
 AST explorer in TUI that every CSIE student dream of.
 
+![demo](./imgs/demo.png)
+
 </div>
 
 ## Feature
