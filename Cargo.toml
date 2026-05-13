@@ -1,0 +1,20 @@
+[package]
+name = "astuin"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.102"
+ratatui = "0.30.0"
+run_script = "0.11.2"
+sise = "0.8.0"
+tui-tree-widget = "0.24.0"
+
+[dependencies.edtui]
+version = "0.11.3"
+default-feature = false
+features = ["arboard", "mouse-support"]
+
+[[bin]]
+name = "astuin"
+path = "src/main.rs" 
